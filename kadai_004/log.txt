@@ -1,11 +1,11 @@
-MacBook-Pro:git-basic-kadai yayoi$ mkdir git_challenge
-MacBook-Pro:git-basic-kadai yayoi$ cd git_challenge/
-MacBook-Pro:git_challenge yayoi$ touch hello_world.txt
-MacBook-Pro:git_challenge yayoi$ vi hello_world.txt 
-MacBook-Pro:git_challenge yayoi$ cat hello_world.txt 
+MacBook-Pro:git-basic-kadai shino$ mkdir git_challenge
+MacBook-Pro:git-basic-kadai shino$ cd git_challenge/
+MacBook-Pro:git_challenge shino$ touch hello_world.txt
+MacBook-Pro:git_challenge shino$ vi hello_world.txt 
+MacBook-Pro:git_challenge shino$ cat hello_world.txt 
 Hello, world!
-MacBook-Pro:git_challenge yayoi$ cd ../
-MacBook-Pro:git-basic-kadai yayoi$ git init
+MacBook-Pro:git_challenge shino$ cd ../
+MacBook-Pro:git-basic-kadai shino$ git init
 hint: Using 'master' as the name for the initial branch. This default branch name
 hint: is subject to change. To configure the initial branch name to use in all
 hint: of your new repositories, which will suppress this warning, call:
@@ -17,8 +17,8 @@ hint: 'development'. The just-created branch can be renamed via this command:
 hint: 
 hint:   git branch -m <name>
 Initialized empty Git repository in /Applications/MAMP/htdocs/git-basic-kadai/.git/
-MacBook-Pro:git-basic-kadai yayoi$ git add git_challenge/
-MacBook-Pro:git-basic-kadai yayoi$ git status
+MacBook-Pro:git-basic-kadai shino$ git add git_challenge/
+MacBook-Pro:git-basic-kadai shino$ git status
 On branch master
 
 No commits yet
@@ -27,24 +27,24 @@ Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   git_challenge/hello_world.txt
 
-MacBook-Pro:git-basic-kadai yayoi$ git commit -m "hello_world.txtを追加"
+MacBook-Pro:git-basic-kadai shino$ git commit -m "hello_world.txtを追加"
 [master (root-commit) 311a297] hello_world.txtを追加
  1 file changed, 1 insertion(+)
  create mode 100644 git_challenge/hello_world.txt
-MacBook-Pro:git-basic-kadai yayoi$ vi git_challenge/hello_world.txt 
-MacBook-Pro:git-basic-kadai yayoi$ cat git_challenge/hello_world.txt 
+MacBook-Pro:git-basic-kadai shino$ vi git_challenge/hello_world.txt 
+MacBook-Pro:git-basic-kadai shino$ cat git_challenge/hello_world.txt 
 Hello, world!
 こんにちは、世界！
-MacBook-Pro:git-basic-kadai yayoi$ git add git_challenge/
-MacBook-Pro:git-basic-kadai yayoi$ git status
+MacBook-Pro:git-basic-kadai shino$ git add git_challenge/
+MacBook-Pro:git-basic-kadai shino$ git status
 On branch main
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   git_challenge/hello_world.txt
 
-MacBook-Pro:git-basic-kadai yayoi$ git commit -m "日本語訳を追記"
+MacBook-Pro:git-basic-kadai shino$ git commit -m "日本語訳を追記"
 [main 73aff85] 日本語訳を追記
  1 file changed, 1 insertion(+)
-MacBook-Pro:git-basic-kadai yayoi$ git log --oneline
+MacBook-Pro:git-basic-kadai shino$ git log --oneline
 73aff85 (HEAD -> main) 日本語訳を追記
 311a297 hello_world.txtを追加
